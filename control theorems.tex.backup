@@ -1,0 +1,55 @@
+\include{header}
+
+\begin{document}
+\title{Bilinear control theory}
+\author{Uther Shackerley-Bennett}
+\maketitle
+
+\tableofcontents
+
+\section{The Definitions}
+
+
+\section{The Theorems}
+$m$ denotes the number of control fields, $n$ denotes the number of modes of the system. The control functions are usually either unspecified or constrained to $u \in \mathbb{R}$.
+
+\subsection{Normal Accessibility}
+$m=m$, $n=n$, any controls. Necessary and sufficient condition for control on a Lie group. p154 JurdjevicGeo or my pdf.
+
+\subsection{Recursivity theorems}
+\subsubsection{Neutrality}
+$m=m$, $n=n$, any controls. Sufficient condition for control on a Lie group. Elliott DO
+\begin{itemize}
+ \item Elliott Contains other, equivalent definitions of neutrality.
+\item I have a necessary and sufficient condition for symplectic neutrality.
+\end{itemize}
+\subsubsection{Genoni2012 recursivity}
+$m=m$, $n=n$, any controls. It is sufficient for Lie group controllability. Note this is not as broad as the neutrality theorem above. Genoni2012.
+\subsubsection{Wu non-empty set}
+$m=1$, $n=1$, symmetric controls. Necessary and sufficient condition for control on a Lie group. Wu2007 and also p117 of Elliott seems to look very similar.
+
+\subsection{Single input unbounded}
+\subsubsection{Jurdjevic and Kupka sufficient condition}
+$m=1$, $n=n$, unbounded controls. Sufficient condition for control on a semi-simple? Lie group. Theorem 3.11 in Elliott. Also found in Jurdjevic I think. DO
+\begin{itemize}
+ \item This seems like it must be broader than neutrality after fixing the control parameters. If this is true then neutrality is not equivalent to controllability.
+\end{itemize}
+
+\subsubsection{El-Assoudi sufficient condition}
+$m=1$, $n=n$, unbounded controls. Sufficient condition for control on a semi-simple Lie group. Presumably broader than above; pretty much takes all properties of the symplectic group. ElAssoudi2014. 
+\subsection{Huang's theorem}
+$m=m$, $n=n$, unbounded controls. Controllability on a homogeneous space of the Lie group in infinite dimensional Hilbert space, intersected with the set of analytic vectors. Huang1983, Wu2005. 
+\begin{itemize}
+ \item It is the equality in the theorem that is most confusing. Why can it not be higher than the dimension of the manifold?
+\end{itemize}
+
+\subsection{Trivial theorems}
+\subsubsection{Blow away the drift field}
+$m>1$, $n=n$, unbounded controls. Can blow away the drift field and generate the algebra with the control fields, thus making LARC necessary and sufficient. Necessary and sufficient condition for control on a Lie group. JurdjevicGeo.
+\subsubsection{Generic Generation}
+$m>1$, $n=n$, unbounded controls. Can blow away the drift field. Generators are dense in the algebra and so LARC not required. JurdjevicGeo.
+
+\section{The map of Gaussian states}
+This map of bilinear control theory is applied to my map of Gaussian states. Symplectic group manifold of dimension $n(2n+1)$, symplectic vector space, metaplectic group manifold, acting on the Hilbert space with a sub-Kahler manifold: the unit sphere or projective Hilbert space in which is a sub-manifold of pure Gaussian states diffeomorphic to the open convex cone of covariance matrices in dimension $n(n+1)$.
+
+\end{document}
